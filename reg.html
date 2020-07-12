@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="bp">Balázs & Péter Italdiszkont </h1>
+        <h1 id="bpw">Webáruháza</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Főoldal</a></li>
+            <li><a href="">Üdítők</a></li>
+            <li><a href="">Sörök</a></li>
+            <li><a href="">Borok</a></li>
+            <li><a href="">Koktélok</a></li>
+            <li><a href="" class="active">Regisztráció</a></li>
+        </ul>
+    </nav>
+    <form action="/action_page.php" method="post">
+            <h1>Regisztráció</h1>
+            <p>Regisztrációhoz kérjük töltse ki ezt az űrlapot</p>
+            <hr>
+            <label for="vezeteknev">
+                <h2>Vezetéknév:</h2>
+            </label>
+            <input type="text" placeholder="Adja meg vezetéknevét" name="vezeteknev" required>
+
+            <label for="keresztnev">
+                <h2>Keresztnév:</h2>
+            </label>
+            <input type="text" placeholder="Adja meg keresztnevét" name="keresztnev" required>
+
+            <label for="email">
+                <h2>E-mail cím:</h2>
+            </label>
+            <input type="text" placeholder="Adja meg e-mail címét" name="email" required>
+
+            <label for="telefon">
+                <h2>Telefonszám:</h2>
+            </label>
+            <input type="number" placeholder="Adja meg telefonszámát" name="telefon" required>
+            <br>
+            <input type="submit">
+    </form>
+</body>
+
+</html>
